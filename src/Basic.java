@@ -12,21 +12,10 @@ abstract public class Basic {
 
 		
 /*
-	
-		Find two strings are anagram.”
-		“aabbbccaabbbcc” → “a2b3c2a2b3c2”)
-	
 	      
 	      
 	      
-String & Array Manipulation
-String Compression
-Input: "aabbbccaabbbcc" → Output: "a2b3c2a2b3c2"
-(Count consecutive characters and compress)
 
-Check Anagram
-Write a function to check whether two strings are anagrams of each other.
-Input: "listen", "silent" → Output: True
 
 Longest Substring Without Repeating Characters
 LeetCode-style sliding window problem.
