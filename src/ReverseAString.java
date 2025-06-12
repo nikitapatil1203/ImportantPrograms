@@ -58,7 +58,7 @@ public class ReverseAString {
 	    	 rev3 = rev3+newString.charAt(i);
 	    	 lst.add(newString.charAt(i));
 	     }
-	     System.out.println(rev3);
+	    // System.out.println(rev3);
 	     
 	     for(int j=0; j<input.length();j++)
 	     {
@@ -72,9 +72,46 @@ public class ReverseAString {
 	    		 finalOutput = finalOutput + input.charAt(j);
 	    	 }
 	     }
-	     System.out.println(finalOutput);
+	    // System.out.println(finalOutput);
 	     
 	    
+	     
+	     // ============OR =========
+	     
+	     //reverse all other characters except special characters
+	      String str5 = "a@b#1c$d";
+	    //expected output = "d@c#1b$a"
+	      String mn = "";
+	      int j=0;
+	      
+	     String output =   str.replaceAll("[^a-zA-Z0-9]", "");
+
+	      String rev5 ="";
+	      
+	      for(int i=output.length()-1;i>=0;i--)
+	      {
+	    	  rev =rev + output.charAt(i);
+	      }
+	      System.out.println(rev);     //dc1ba
+	      
+	      char arr5[]=          str.toCharArray();
+	      
+	      for(Character ar:arr5)
+	      {
+	    	  if((ar>='a' && ar<='z') || (ar>='A' && ar<='Z') || (ar>='1' && ar<='9'))
+	    	  {
+	    		  mn = mn+rev.charAt(j);
+	    		  j++;
+	    	  }
+	    	  else
+	    	  {
+	    		  mn = mn+ar;
+	    		
+	    	  }
+	      }
+	      System.out.println(mn);
+	      
+	      
 	}
 
 }
