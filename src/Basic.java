@@ -24,9 +24,7 @@ Input: "abcabcbb" → Output: 3
 Find Duplicate in an Array
 Return any duplicate element in a given array of integers.
 
-Merge Intervals
-Given an array of intervals, merge all overlapping intervals.
-Input: [[1,3],[2,6],[8,10],[15,18]] → Output: [[1,6],[8,10],[15,18]]
+
 
 🔹 Linked Lists & Trees
 Reverse a Linked List
