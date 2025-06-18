@@ -6,20 +6,25 @@ import java.util.Set;
 
 abstract public class Basic {
 	
-
+int a;
+int b;
 	public static void main(String[] args) {
-		
+   
 
+		public void Addition()
+		{
+			int sum = a+b;
+		}
 		
 /*
+ * 
+ * 
 	      
 	      
 	      
 
 
-Longest Substring Without Repeating Characters
-LeetCode-style sliding window problem.
-Input: "abcabcbb" → Output: 3
+
 
 Find Duplicate in an Array
 Return any duplicate element in a given array of integers.
@@ -91,6 +96,10 @@ Prepare a few object-oriented design questions (e.g., Logger, Parking Lot) as Ap
 
 */
 	}
+	
+
+	
+
 }
 
 

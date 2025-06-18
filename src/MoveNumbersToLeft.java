@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class MoveNumbersToLeft {
 
@@ -29,6 +30,32 @@ public class MoveNumbersToLeft {
 			System.out.print(arr[j]+ " ");
 		}
 		
+		
+		
+	/*	=================== OR ============
+				int arr[] = {1, 2, 3, 4 ,5 };
+				int d= 4;
+				//5 1 2 3 4
+				
+			
+			for(int j=0;j<d;j++)
+		{
+				int size =	arr[0];
+				for(int i=1;i<=arr.length-1;i++)
+				{
+					arr[i-1] = arr[i];
+				
+					
+				}
+				  arr[arr.length-1] = size;
+		        
+				System.out.println(Arrays.toString(arr));
+				
+				
+				
+		}
+		*/
+			
 		
 		
 

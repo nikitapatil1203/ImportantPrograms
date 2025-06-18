@@ -9,7 +9,7 @@ public class SlidingWindow {
 
      // Find Longest Substring Without Repeating Characters
 		String str = "naveen"; 
-	    // Output: 3
+	    // Output: 4
 		
 	   char arr[] =   str.toCharArray();
 	   int startpoint = 0;
